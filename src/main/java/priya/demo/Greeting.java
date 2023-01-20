@@ -1,2 +1,3 @@
-package priya.demo;public class Greeting {
-}
+package priya.demo;
+
+public record Greeting(long id, String content) { }
