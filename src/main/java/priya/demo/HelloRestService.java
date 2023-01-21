@@ -15,7 +15,7 @@ public class HelloRestService {
     @GetMapping("/")
     public String getHealth()
     {
-        return new String("200");
+        return new String("Well Hello there, did you get to check the target health?");
     }
 
     @GetMapping("/greeting")
